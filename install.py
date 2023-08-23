@@ -9,3 +9,4 @@ if operating_system == "Linux":
     os.system("./.linux_wsl_installer.sh")
 elif operating_system == "Windows":
     print ('on windows')
+    os.system('.windows_installer.bat')
